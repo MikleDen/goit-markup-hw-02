@@ -1,0 +1,13 @@
+:root {
+    --brand-color: #4D5AE5;
+    --dark:#2E2F42;
+    --text:#434455;
+
+  }
+  
+
+body {
+
+    font-family: 'Roboto','Verdana',sans-serif;
+    color: var(--text) ;
+}
