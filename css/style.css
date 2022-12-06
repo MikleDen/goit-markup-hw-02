@@ -1,14 +1,117 @@
 :root {
-    --brand-color: #4D5AE5;
-    --dark:#2E2F42;
-    --text:#434455;
+  --brand-color: #4d5ae5;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+}
 
-  }
-  
-ul li {list-style: none;}
+ul li {
+  list-style: none;
+}
 
 body {
+  font-family: 'Roboto', 'Verdana', sans-serif;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.logo > span {
+  color: var(--brand-color);
+}
+.header-list {
+}
+.header-list-item {
+  color: var(--dark-color);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 5;
+}
 
-    font-family: 'Roboto','Verdana',sans-serif;
-    color: var(--text) ;
+.header-info {
+}
+.header-info-item {
+  color: var(--text-color);
+}
+.first-section-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1, 07;
+  color: #ffffff;
+  background-color: var(--dark-color);
+}
+.button {
+  color: #ffffff;
+  background-color: var(--brand-color);
+  font-size: 600;
+  font-size: 16px;
+  line-height: 1, 18;
+}
+.section-list {
+}
+.title-two {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1, 2;
+  color: var(--dark-color);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: var(--dark-color);
+}
+.photo-list {
+}
+.photo-list-item {
+}
+
+.team-list {
+}
+.team-list-item {
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.footer > .logo {
+  color: #ffffff;
+}
+.footer-text {
+  color: #e7e9fc;
+}
+
+.filter-list {
+}
+.filter-list-item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--brand-color);
+  cursor: pointer;
+ 
+}
+.filter-list-item>button{
+  background-color: #f4f4fd;
+}
+.filter-list-item :hover {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.cards {
+}
+.cards-item {
 }
