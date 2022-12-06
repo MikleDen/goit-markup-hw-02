@@ -39,11 +39,19 @@ a {
   font-size: 16px;
   line-height: 1, 5;
 }
+.header-list-item:hover,
+.header-list-item:focus {
+  color: var(--brand-color);
+}
 
 .header-info {
 }
 .header-info-item {
   color: var(--text-color);
+}
+.header-info-item:hover,
+.header-info-item:focus {
+  color: var(--brand-color);
 }
 .first-section-title {
   font-weight: 600;
@@ -66,6 +74,11 @@ a {
   font-size: 20px;
   line-height: 1, 2;
   color: var(--dark-color);
+}
+
+.cards-item > a > .title-two:hover,
+.cards-item > a > .title-two:focus {
+  color: var(--brand-color);
 }
 
 .title {
@@ -97,14 +110,16 @@ a {
 .filter-list {
 }
 .filter-list-item {
+}
+.hide {
+  visibility: hidden;
+}
+.filter-list-item > button {
   font-weight: 600;
   font-size: 16px;
   line-height: 1, 5;
   color: var(--brand-color);
   cursor: pointer;
- 
-}
-.filter-list-item>button{
   background-color: #f4f4fd;
 }
 .filter-list-item :hover {
