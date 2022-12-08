@@ -2,6 +2,9 @@
   --brand-color: #4d5ae5;
   --dark-color: #2e2f42;
   --text-color: #434455;
+  --accent-color: #E7E9FC;
+  --white-color:#FFFFFF;
+  --light-color: #F4F4FD;
 }
 
 ul li {
@@ -11,7 +14,6 @@ ul li {
 body {
   font-family: 'Roboto', 'Verdana', sans-serif;
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   text-decoration: none;
 }
@@ -23,7 +25,7 @@ a {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   text-transform: uppercase;
   color: var(--dark-color);
   text-decoration: none;
@@ -37,7 +39,7 @@ a {
   color: var(--dark-color);
   font-weight: 600;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
 }
 .header-list-item:hover,
 .header-list-item:focus {
@@ -56,23 +58,24 @@ a {
 .first-section-title {
   font-weight: 600;
   font-size: 56px;
-  line-height: 1, 07;
-  color: #ffffff;
+  line-height: 1.07;
+  color: var(--white-color);
   background-color: var(--dark-color);
 }
 .button {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--brand-color);
-  font-size: 600;
+  font-weight: 600;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
+  font-family: inherit;
 }
 .section-list {
 }
 .title-two {
   font-weight: 600;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   color: var(--dark-color);
 }
 
@@ -101,10 +104,10 @@ a {
   background-color: var(--dark-color);
 }
 .footer > .logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-text {
-  color: #e7e9fc;
+  color: var(--accent-color);
 }
 
 .filter-list {
@@ -117,14 +120,14 @@ a {
 .filter-list-item > button {
   font-weight: 600;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--brand-color);
   cursor: pointer;
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
 }
 .filter-list-item :hover {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .cards {
 }
