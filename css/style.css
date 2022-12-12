@@ -111,6 +111,7 @@ a {
 .team-list-text {
   letter-spacing: 0.02em;
   color: var(--text-color);
+  line-height: 1.5;
 }
 .footer {
   background-color: var(--dark-color);
@@ -152,4 +153,5 @@ a {
 .cards-text {
   color: var(--text-color);
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
