@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -29,6 +29,7 @@ a {
   text-transform: uppercase;
   color: var(--dark-color);
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo > span {
   color: var(--brand-color);
@@ -40,6 +41,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-list-item:hover,
 .header-list-item:focus {
@@ -50,6 +52,7 @@ a {
 }
 .header-info-item {
   color: var(--text-color);
+  letter-spacing: 0.03em;
 }
 .header-info-item:hover,
 .header-info-item:focus {
@@ -59,6 +62,7 @@ a {
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--white-color);
   background-color: var(--dark-color);
 }
@@ -68,6 +72,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.04em;
   font-family: inherit;
 }
 .section-list {
@@ -77,6 +82,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-color);
+  letter-spacing: 0.02em;
 }
 
 .cards-item > a > .title-two:hover,
@@ -90,6 +96,7 @@ a {
   line-height: 40px;
   text-transform: capitalize;
   color: var(--dark-color);
+  letter-spacing: 0.02em;
 }
 .photo-list {
 }
@@ -100,6 +107,11 @@ a {
 }
 .team-list-item {
 }
+
+.team-list-text {
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
 .footer {
   background-color: var(--dark-color);
 }
@@ -108,22 +120,26 @@ a {
 }
 .footer-text {
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
 
 .filter-list {
 }
 .filter-list-item {
+
 }
 .hide {
   visibility: hidden;
 }
 .filter-list-item > button {
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   color: var(--brand-color);
   cursor: pointer;
   background-color: var(--light-color);
+  letter-spacing: 0.04em;
 }
 .filter-list-item :hover {
   background-color: var(--brand-color);
@@ -132,4 +148,8 @@ a {
 .cards {
 }
 .cards-item {
+}
+.cards-text {
+  color: var(--text-color);
+  letter-spacing: 0.02em;
 }
